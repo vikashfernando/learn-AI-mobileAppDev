@@ -33,7 +33,8 @@ let fName="vikash";
 const marksForMaths=85;
 let isAdult=true;
 
-console.log("fist name: "+fName)
-console.log("marksForMaths: "+marksForMaths)
-console.log("+18: "+isAdult)
+console.log(`fist name: ${fName}`);
+
+console.log("marksForMaths: "+marksForMaths);
+console.log("+18: "+isAdult);
 
