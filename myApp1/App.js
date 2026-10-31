@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Welcome to my 1st mobile app</Text>
+      <Text style={styles.title}>Welcome to my 1st mobile app.</Text>
       <Text>My first mobile app is working.</Text>
       <StatusBar style="auto" />
     </View>
@@ -26,5 +26,14 @@ const styles = StyleSheet.create({
 });
 
 
-let userName="vikash";
-console.log(userName);
+let v1="js variables";
+console.log(v1);
+
+let fName="vikash";
+const marksForMaths=85;
+let isAdult=true;
+
+console.log("fist name: "+fName)
+console.log("marksForMaths: "+marksForMaths)
+console.log("+18: "+isAdult)
+
