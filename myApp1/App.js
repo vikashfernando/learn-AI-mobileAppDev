@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Hello, World!</Text>
+      <Text style={styles.title}>Welcome to my 1st mobile app</Text>
       <Text>My first mobile app is working.</Text>
       <StatusBar style="auto" />
     </View>
@@ -24,3 +24,7 @@ const styles = StyleSheet.create({
     marginBottom: 12,
   },
 });
+
+
+let userName="vikash";
+console.log(userName);
